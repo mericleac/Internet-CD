@@ -13,11 +13,94 @@ header h1 {
     display: inline-block;
     vertical-align: top;
     color: #474747;
-    font-weight: lighter;
     font-size: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 span.special {
     color: #2d6da3;
+}
+
+header h2 {
+    background: linear-gradient(#25669e, #4d80ab, #25669e);
+    -webkit-background: linear-gradient(#25669e, #4d80ab, #25669e);
+    color: white;
+    margin: -23px 0px 0px;
+    padding: 14px 10px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.left-side-bar {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    text-align: left;
+    padding: 15px;
+}
+
+.left-side-bar h3 {
+    font-size: 16px;
+}
+
+.left-side-bar h4 {
+    font-size: 14px;
+    margin: 10px 0px;
+}
+
+h3 span.special {
+    color: red;
+}
+
+button {
+    display: block;
+    background: linear-gradient(#5e94c1, #26689f);
+    -webkit-background: linear-gradient(#5e94c1, #26689f);
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+    border: none;
+    box-shadow: 2px 2px 1px gray;
+    width: 200px;
+    margin: 10px 0px;
+    border-radius: 5px;
+}
+
+button:nth-of-type(2) {
+    background: linear-gradient(#eba84d, #ef7400);
+    -webkit-background: linear-gradient(#eba84d, #ef7400);
+}
+
+.dummy {
+    height: 2px;
+    width: 200px;
+    background-color:lightgray;
+    margin: 20px 0px;
+}
+
+.ad {
+    background-image: url(images/ad_background.png);
+    background-size: contain;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.ad h1 {
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+.ad img {
+    width: 100px;
+}
+
+.ad button {
+    background: linear-gradient(#6ccfdf, #00c1df);
+    -webkit-background: linear-gradient(#6ccfdf, #00c1df);
+    text-transform: capitalize;
+    width: 150px;
+    box-shadow: 2px 2px 1px black;
+    font-size: 12px;
 }
