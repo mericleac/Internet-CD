@@ -1,0 +1,23 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header img {
+    width: 100px;
+    display: inline-block;
+}
+
+header h1 {
+    display: inline-block;
+    vertical-align: top;
+    color: #474747;
+    font-weight: lighter;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+span.special {
+    color: #2d6da3;
+}
