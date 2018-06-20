@@ -113,6 +113,7 @@ button:nth-of-type(2) {
     display: inline-block;
     vertical-align: top;
     width: 850px;
+    font-size: 15px;
 }
 
 .home {
@@ -148,4 +149,60 @@ button:nth-of-type(2) {
 .contact h6 {
     color: #02c1df;
     font-size: 24px;
+}
+
+.main .dummy {
+    margin: 3px 0px;
+}
+
+.main h2 {
+    color: #306ea4;
+    font-size: 21px;
+}
+
+.em {
+    font-weight: bold;
+}
+
+.main ul {
+    margin: 10px 0px 0px 40px;
+}
+
+.main li {
+    margin: 5px 0px;
+}
+
+.serverclient {
+    margin: 5px 250px;
+    width: 325px;
+}
+
+.main ol {
+    margin: 10px 0px 0px 40px;
+}
+
+.bigthree {
+    border: 4px solid #0085e0;
+}
+
+.bigthree img {
+    width: 130px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.description {
+    display: inline-block;
+    vertical-align: top;
+    width: 650px;
+    margin: 10px;
+}
+
+.description p {
+    margin-top: 10px;
+}
+
+.description a {
+    color: #32acbf;
+    text-decoration: none;
 }
